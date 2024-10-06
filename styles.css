@@ -1,0 +1,86 @@
+/* Основные стили */
+body {
+    background-color: #1e2d24; /* Темно-зеленый фон */
+    color: #e6e6e6; /* Светло-серый текст */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('forest-background.jpg'); /* Фоновое изображение леса */
+    background-size: cover; /* Полностью заполняет фон */
+    background-position: center;
+}
+
+/* Стили для заголовков и текста */
+header h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #b1d1ab; /* Мягкий зелёный цвет */
+    padding: 20px;
+}
+
+section {
+    padding: 40px;
+    margin: 0 auto;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный фон */
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+/* Стили для списка навигации */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #e6e6e6;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    color: #b1d1ab; /* Изменение цвета при наведении */
+}
+
+/* Стили для текста внутри секций */
+h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2em;
+    text-align: left;
+    margin: 20px 0;
+}
+
+/* Стили для глав */
+.chapter-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chapter-list article {
+    width: 45%;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+footer p {
+    font-size: 1.2em;
+    color: #b1d1ab;
+}
